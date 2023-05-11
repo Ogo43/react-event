@@ -1,4 +1,4 @@
-const info = 
+export const info = 
 [
     {
         "id": "60d0fe4f5311236168a109f5",
@@ -71,3 +71,5 @@ const info =
         "picture": "https://randomuser.me/api/portraits/med/men/24.jpg"
     }
 ]
+
+

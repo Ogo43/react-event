@@ -1,17 +1,17 @@
 import React from 'react'
 
-const PersonalInfo = () => {
+const PersonalInfo = ({src, id, title, firstname, lastname}) => {
   return (
     <div className='info_wrapper'>
         <div className='pic'>
-            <img src="https://randomuser.me/api/portraits/med/women/77.jpg"/>
+            <img src={src}/>
         </div>
         <div>
-            <h2 className='info-id'>000012</h2>
+            <h2 className='info-id'>{id}</h2>
             <p>
-                <span className='title'>ms</span>
-                <span className='firstname'>Ogochukwu</span>
-                <span className='lastname'>Emeh</span>
+                <span className='title'>{`${title} `}</span>
+                <span className='firstname'>{`${firstname} `}</span>
+                <span className='lastname'>{lastname}</span>
             </p>
         </div>
     </div>
