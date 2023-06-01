@@ -1,12 +1,13 @@
 .body {
   background: linear-gradient(0deg, rgb(255,182,96) 30%, rgb(255,115,110) 60%, rgb(228, 82, 133) 70%);
+  background-size: cover;
   margin: 0;
   padding: 1rem;
   width: 100%;
 }
 
 .body1{
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
 }
 
