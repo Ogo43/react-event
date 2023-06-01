@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PersonalInfo = ({src,alt, id, title, firstname, lastname}) => {
+const PersonalInfo = ({src, alt, id, title, firstname, lastname}) => {
   return (
     <div className='info_wrapper'>
         <div className='pic'>
