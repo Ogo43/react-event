@@ -4,7 +4,7 @@ const PersonalInfo = ({src, alt, id, title, firstname, lastname}) => {
   return (
     <div className='info_wrapper'>
         <div className='pic'>
-            <img src={src} alt={picture}/>
+            <img src={src} alt={''}/>
         </div>
         <div>
             <h2 className='info-id'>{id}</h2>
