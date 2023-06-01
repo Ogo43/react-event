@@ -1,10 +1,10 @@
 import React from 'react'
 
-const PersonalInfo = ({src, id, title, firstname, lastname}) => {
+const PersonalInfo = ({src,alt, id, title, firstname, lastname}) => {
   return (
     <div className='info_wrapper'>
         <div className='pic'>
-            <img src={src}/>
+            <img src={src} alt={picture}/>
         </div>
         <div>
             <h2 className='info-id'>{id}</h2>
